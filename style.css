@@ -9,23 +9,13 @@ body {
   font-family: "Merriweather", serif;
 }
 
-.page-header {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-.logo {
-  height: 60px;
-  width: auto;
-  padding-left: 0%;
+nav {
+  background-color: #e4f9f5;
 }
 
 .navbar {
-  color: #ffffff;
-  background-color: #fff;
-  height: 10%;
+  color: #407088;
 }
-
 
 .title {
   position: absolute;
@@ -83,6 +73,17 @@ hr {
   width: 10%;
 }
 
+a.footer-link {
+  color: #ffffff;
+  font-family: "Montserrat", cursive;
+  margin: 10px 20px;
+  text-decoration: none; /*remove the underline*/
+}
+
+a.footer-link:hover {
+  color: #eaf6f6;
+}
+
 /*NavBar*/
 
 .smart-scroll {
@@ -119,7 +120,7 @@ hr {
   background-image: url(banner.png);
   line-height: 2;
   position: relative;
-  padding-top: 300px;
+  padding-top: 100px;
 }
 
 .middle-container {

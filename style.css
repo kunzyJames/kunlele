@@ -26,25 +26,6 @@ body {
   height: 10%;
 }
 
-.navbar a {
-  color: rgb(255, 247, 247);
-  font-size: 14px;
-  font-weight: 100;
-  margin-left: 35px;
-  text-decoration: none;
-}
-
-.navbar a::after {
-  display: block;
-  width: 0;
-  height: 1px;
-  margin-top: 6px;
-  background-color: #11999e;
-  transition: width 0.3s;
-}
-.navbar a:hover::after {
-  width: 100%;
-}
 
 .title {
   position: absolute;

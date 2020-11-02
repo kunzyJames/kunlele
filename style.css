@@ -135,7 +135,7 @@ hr {
 /*Page*/
 
 .top-container {
-  background-image: url(images/banner.png);
+  background-image: url(banner.png);
   line-height: 2;
   position: relative;
   padding-top: 300px;

@@ -166,22 +166,30 @@ hr {
   background-image: linear-gradient(to bottom, #11cdd4, #11999e);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
+  opacity: 0.6;
+  width: 200px;
+  height: 59px;
   border-radius: 8px;
   font-family: "Montserrat", cursive;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  -webkit-transition: -webkit-transform 2s, opacity 2s, width 2s, height 2s;
 }
-
 .btn:hover {
   background: #30e3cb;
+  -webkit-transform: rotate(300 deg);
   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+
+  width: 320px;
+  height: 50px;
+  opacity: 1;
 }
 
 .copyright {
